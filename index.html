@@ -8,9 +8,26 @@
     <title>accueil</title>
 
     <link rel="stylesheet" href="css/mescss/typography.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
 </head>
-<body>
-<h1>Pollution cachée</h1>
+<body class="menu-open">
+<header>
+    <h1><a href="">Pollution cachée</a></h1>
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="">accueil</a></li>
+            <li><a href="">Searching:Portée disparue</a></li>
+            <li><a href="">La pollution numérique</a></li>
+            <li><a href="">Les différentes solutions</a></li>
+            <li><a href="">L'auguementation de l'utilisation du numérique</a></li>
+            <li><a href="">Infos pratiques</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
 <p>
     Quand Margot disparaît, l'enquête pour la retrouver reste au point mort.
     Son père va alors fouiller son ordinateur pour la retrouver.
@@ -23,5 +40,6 @@
     La pollution numérique est responsable de 4 % des émissions de gaz à effets
     de serre. Quelles sont les solutions pour diminuer ce chiffre ?
 </p>
+</main>
 </body>
 </html>
