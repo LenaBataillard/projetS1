@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Seaarching:portée disparue</title>
+    <script type="module" src="https://dev.jspm.io/elix/define/Carousel.js"></script>
 
     <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/menu.css">
 </head>
 <body>
 <header>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <h1><a href="">Pollution cachée</a></h1>
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
         <div class="nav-toggle-bar"></div>
@@ -74,6 +76,16 @@ récent : la pollution due à son utilisation qui augmente jour après jour.</p>
     numérique qui est de plus en plus importante et donc de plus en plus
     polluante. Il est donc important de faire attention à notre emploi du web
     pour éviter cette pollution grandissante.</p>
+
+<elix-carousel>
+    <img src="img/carousel/robot.jpg" alt="robot.jpg" height="119" width="80">
+    <img src="img/carousel/snowden.jpg" alt="snowden.jpg" height="119" width="80">
+    <img src="img/carousel/social_dilemna.jpg" alt="social_dilemna.jpg" height="119" width="80">
+    <img src="img/carousel/social_network.jpg" alt="social_network.jpg" height="119" width="80">
+    <img src="img/carousel/circle.jpg" alt="circle.webp" height="119" width="80">
+    <img src="img/carousel/Steve_Jobs.jpg" alt="Steve_Jobs.jpg" height="119" width="80">
+</elix-carousel>
+
 <footer>
 </footer>
 </body>
