@@ -9,11 +9,13 @@ body{
 h1{
     font-family: "Droid Serif";
     font-size: 24px;
+    color: black;
 }
 
 h2{
     font-family: "Droid Serif";
     font-size: 22px;
+    color: black;
 }
 
 a{
@@ -21,6 +23,11 @@ a{
     color: black;
 }
 
+a:hover {
+    background-color: #2488FF;
+}
+
 p {
     font-size: 14px;
+    color: black;
 }

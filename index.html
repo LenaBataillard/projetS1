@@ -1,53 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>accueil</title>
-
+    <meta name="viewport" content="width=device-width,initial-scale-1.0">
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="css/lib/normalize.css">
     <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/menu.css">
 </head>
-<body class="menu-open">
+<body class=" ">
 <header>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <h1><a href="">Pollution cachée</a></h1>
+    <img src="img/entete/logo.png" alt="logo.png" height="189" width="283">
+    <h1>Informer pour aider à avancer</h1>
+    <a href="index.html"></a>
+
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
         <div class="nav-toggle-bar"></div>
     </div>
-    <nav class="menu">
+    <nav class="menu" >
         <ul>
-            <li><a href="">accueil</a></li>
-            <li><a href="">Searching:Portée disparue</a></li>
-            <li><a href="">La pollution numérique</a></li>
-            <li><a href="">Les différentes solutions</a></li>
-            <li><a href="">L'auguementation de l'utilisation du numérique</a></li>
-            <li><a href="">Infos pratiques</a></li>
+            <li><a href="index.html">Acceuil</a></li>
+            <div id="index.html"><hr></div>
+            <li><a href="searching.html">Searching : Portée disparue</a></li>
+            <div id="searching.html"><hr></div>
+            <li><a href="pollution.html">La pollution numérique</a></li>
+            <div id="pollution.html"><hr></div>
+            <li><a href="solutions.html">Les différentes solutions</a></li>
+            <div id="solutions.html"><hr></div>
+            <li><a href="auguementation.html">l'augmentation de l'utilisation du numérique </a></li>
+            <div id="auguementation.html"><hr></div>
+            <li><a href="InfosPratiques.html">infos pratiques</a></li>
+            <div id="InfosPratiques.html"><hr></div>
         </ul>
     </nav>
+
 </header>
 <main>
-    <img src="img/acceuil/affiche-du-film.jpg" alt="affiche-du-film.jpg" height="1600" width="1200">
-<p>
-    Quand Margot disparaît, l'enquête pour la retrouver reste au point mort.
-    Son père va alors fouiller son ordinateur pour la retrouver.
-</p>
+    <img src="img/acceuil/affiche-du-film.png" alt="affiche-du-film.jpg" height="350" width="315">
+    <a href="searching.html"></a>
 
-    <img src="img/acceuil/pollution.jpg" alt="pollution.jpg" height="3213" width="2409">
-    <p>
-    L’utilisation du numérique augmente de jour en jour, sa pollution aussi.
-    Quelle est-elle ? Quelles en sont les conséquences ?
-</p>
+    <img src="img/acceuil/pollution.png" alt="pollution.jpg" height="350" width="315">
+    <a href="pollution.html"></a>
 
-    <img src="img/acceuil/solution.png" alt="solution.png" height="626" width="626">
-    <p>
-    La pollution numérique est responsable de 4 % des émissions de gaz à effets
-    de serre. Quelles sont les solutions pour diminuer ce chiffre ?
-</p>
+    <img src="img/acceuil/solution.png" alt="solution.png" height="350" width="315">
+    <a href="solutions.html"></a>
+
 </main>
 <footer>
+    <div class="centre">
+        <div class="nom">
+            <p>Lena Bataillard</p>
+            <p>A1</p>
+        </div>
+
+        <div class="mention-legales.module-footer">
+            <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com">MMI de montbéliard</a></p>
+        </div>
+
+        <div class="réseaux.module-footer">
+            <ul>
+                <li><a href="https://www.facebook.com/mmimontbeliard">Facebook</a></li>
+                <li><a href="https://twitter.com/MMImontbeliard">Twitter</a></li>
+                <li><a href="mailto:lena.bataillard3@gmail.com">Mail</a></li>
+                <li><a href="https://www.instagram.com/mmi_montbeliard/?hl=fr">instagram</a></li>
+
+            </ul>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
