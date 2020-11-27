@@ -20,6 +20,55 @@ body>img{
     margin-left: 15px;
 }
 
+
+
+
+
+.slider {
+    width: 375px;
+    overflow: hidden ;
+    margin: 150px auto;
+}
+
+.slides {
+    width: 375px;
+    animation: glisse 10s infinite;
+}
+.slide {
+    float: left;
+}
+
+@keyframes glisse {
+    0% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-500px);
+    }
+    43% {
+        transform: translateX(-500px);
+    }
+    66% {
+        transform: translateX(-1000px);
+    }
+    76% {
+        transform: translateX(-1000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+
+
 body>elix-carousel{
     height: 192px;
     width: 238px;
@@ -35,6 +84,7 @@ body>h1,h2,p{
     margin-left:15px;
     margin-right: 15px;
 }
+
 
 .contact\.module-footer a[href^="mailto:"]{
     background: url("img/footer/mail.png") no-repeat;
