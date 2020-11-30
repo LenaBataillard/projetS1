@@ -11,7 +11,11 @@ body{
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
+}
+
+a:hover{
+    color: #9BE2F2;
 }
 
 .nav-toggle{
@@ -60,7 +64,7 @@ a{
 /*Menu*/
 
 .menu{
-    background-color: #CFE7ED;
+    background-color: #B8CACD;
     position: fixed;
     top: 0;
     left: 0;
@@ -109,8 +113,11 @@ a{
 }
 
 .menu a{
-    color: white;
+    color: black;
+}
 
+.menu a:hover{
+    color: #9BE2F2;
 }
 
 .menu-open .menu li{
