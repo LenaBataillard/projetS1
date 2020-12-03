@@ -53,8 +53,18 @@ h4{
     font-family: Merriweather,sans-serif;
     font-size: 9px;
     margin-top: 70px;
-    margin-left: 119px;
+    margin-left: 105px;
     color: #5F7F80;
+
+}
+
+h1{
+    position: relative;
+    font-family: "Droid Serif",sans-serif;
+    font-size: 24px;
+    color: black;
+    margin-left: 10px;
+    top: 20px;
 
 }
 
@@ -64,11 +74,66 @@ body>h2,p{
 
 h3{
     text-align: center;
+    font-family: "Droid Serif", sans-serif;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+h2{
+    font-family: "Droid Serif", sans-serif;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.article img, video{
+    position: relative;
+    margin-left: 20px ;
+    margin-top: 30px;
+}
+
+
+.carousel>h2,header{
+    margin: 0 20px;
+}
+
+.carousel{
+    background-color:white;
+    color: black;
+    padding:20px 0 ;
+}
+
+.carousel-items{
+    list-style: none;
+    padding: 20px 0;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+li.carousel-items{
+    flex: 1 0 320px;
+    margin-right:20px;
+    scroll-snap-align:center;
+}
+
+::-webkit-scrollbar{
+    height: 2px;
+}
+
+::-webkit-scrollbar-track{
+    background-color:white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:white;
 }
 
 .fond_footer {
     position: absolute;
-    top: 1700px;
+    top: 3350px;
     height: 143px;
     width: 375px;
     background-color: #B8CACD;
@@ -76,7 +141,7 @@ h3{
 }
 .nom_prenom {
     position: absolute;
-    top: 1680px;
+    top: 3330px;
     left: 19px;
     color: black;
     font-size: 10px;
@@ -84,13 +149,13 @@ h3{
 
 .mmi img{
     position: absolute;
-    top: 1740px;
+    top: 3390px;
     left: 167px;
 }
 
 .mailto p {
     position: absolute;
-    top: 1680px;
+    top: 3330px;
     left: 225px;
     color: black;
     font-size: 10px;
@@ -101,7 +166,7 @@ h3{
 
 .projet {
     position: absolute;
-    top: 1750px;
+    top: 3400px;
     left: 30px;
     text-align: center;
     color: black;
