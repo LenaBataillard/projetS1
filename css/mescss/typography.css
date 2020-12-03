@@ -1,20 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+
 body{
     background: white;
-    font-family: Merriweather;
+    font-family: "Merriweather", sans-serif;
     font-size:16px;
     line-height:2.0;
-    margin:0 20px;
+    margin:0 ;
 }
 
 h1{
-    font-family: "Droid Serif";
+    font-family: "Droid Serif", sans-serif;
     font-size: 24px;
     color: black;
     font-weight: bold;
 }
 
 h2,h3{
-    font-family: "Droid Serif";
+    font-family: "Droid Serif", sans-serif;
     font-size: 22px;
     color: black;
     font-weight: bold;
@@ -25,11 +29,3 @@ a{
     color: black;
 }
 
-a:hover {
-    background-color: #2488FF;
-}
-
-p {
-    font-size: 14px;
-    color: black;
-}

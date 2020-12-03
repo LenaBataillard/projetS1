@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width,initial-scale-1.0">
     <title>Acceuil</title>
     <link rel="stylesheet" href="css/lib/normalize.css">
-    <link rel="stylesheet" href="css/mescss/typography.css">
-    <link rel="stylesheet" href="css/mescss/mise_en_page.css">
     <link rel="stylesheet" href="css/mescss/menu.css">
+    <link rel="stylesheet" href="css/mescss/Acceuil.css">
+
 
 </head>
 <body class=" ">
 <header>
-    <img src="img/entete/logo.png" alt="logo.png" height="300" width="200">
-    <h1>Pollution cachée</h1>
-    <h2>Informer pour aider à avancer</h2>
-    <a href="index.html"></a>
+    <div class="logo">
+        <a href="index.html"><img src="img/entete/logo.png" alt="logo.png" height="51" width="120"></a>
+    </div>
+    <h1>Informer pour aider à avancer</h1>
+
 
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
         <div class="nav-toggle-bar"></div>
@@ -32,6 +33,10 @@
     </nav>
 
 </header>
+<div class="intro">
+    <p>Bienvenue sur le site "pollution cachée". Ces articles te permettront d'en savoir plus sur la pollution du numérique et ses solutions. </p>
+    <img src="img/acceuil/Intro.png" alt="Intro.png" height="354" width="354">
+</div>
 <main>
     <div class="groupetitre titrehaut">
         <p>Quand Margot disparaît, l'enquête pour la retrouver reste au point mort. Son père va alors fouiller son ordinateur pour la retrouver.</p>
@@ -52,25 +57,18 @@
 
 </main>
 <footer>
-    <div class="centre">
-        <div class="nom">
-            <p>Lena Bataillard</p>
-            <p>A1</p>
-        </div>
-
-        <div class="mention-legales.module-footer">
-            <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com">MMI de montbéliard</a></p>
-        </div>
-
-        <div class="réseaux.module-footer">
-            <ul>
-                <li><a href="https://www.facebook.com/mmimontbeliard">Facebook</a></li>
-                <li><a href="https://twitter.com/MMImontbeliard">Twitter</a></li>
-                <li><a href="mailto:lena.bataillard3@gmail.com">Mail</a></li>
-                <li><a href="https://www.instagram.com/mmi_montbeliard/?hl=fr">instagram</a></li>
-
-            </ul>
-        </div>
+    <div class="fond_footer"></div>
+    <div class="nom_prenom">
+        <p>Lena Bataillard A1</p>
+    </div>
+    <div class="mmi">
+        <a href="http://mmimontbeliard.com"><img src="img/footer/MMI.png" alt="logo.png" height="45" width="40">
+    </div>
+    <div class="mailto">
+        <p><a href="mailto:lena.bataillard3@gmail"> mailto:lena.bataillard3@gmail </a></p>
+    </div>
+    <div class="projet">
+        <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com"> MMI de Montbéliard</a></p>
     </div>
 </footer>
 </body>

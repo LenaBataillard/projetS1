@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+html{
+    width: 100%;
+}
+
+body{
+    background: white;
+    font-family: "Merriweather", sans-serif;
+    font-size:16px;
+}
+
+.logo img {
+    z-index: 4;
+    position: absolute;
+    top: 18px;
+    left: 115px;
+}
+
+.intro p{
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    z-index: 0;
+
+}
+
+.intro img{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 0px;
+    z-index: -1;
+
+}
+
+.groupetitre.titrehaut img,p {
+    margin-top: -80px;
+    margin-left: 30px;
+    position: relative;
+    z-index: -1;
+}
+
+.groupetitre.titrebas h2,p{
+    margin-top: -40px;
+    margin-left: 30px;
+    position: relative;
+    z-index: 0;
+}
+
+h1{
+    position: relative;
+    z-index:5;
+    font-family: Merriweather,sans-serif;
+    font-size: 9px;
+    margin-top: 70px;
+    margin-left: 119px;
+    color: #5F7F80;
+
+}
+
+body>h2,p{
+    margin: 40px 15px;
+}
+
+h3{
+    text-align: center;
+}
+
+.fond_footer {
+    position: absolute;
+    top: 1700px;
+    height: 143px;
+    width: 375px;
+    background-color: #B8CACD;
+    margin: 0;
+}
+.nom_prenom {
+    position: absolute;
+    top: 1680px;
+    left: 19px;
+    color: black;
+    font-size: 10px;
+}
+
+.mmi img{
+    position: absolute;
+    top: 1740px;
+    left: 167px;
+}
+
+.mailto p {
+    position: absolute;
+    top: 1680px;
+    left: 225px;
+    color: black;
+    font-size: 10px;
+    text-indent: -999px;
+    background-image: image("mail.png");
+
+}
+
+.projet {
+    position: absolute;
+    top: 1750px;
+    left: 30px;
+    text-align: center;
+    color: black;
+    font-size: 10px;
+}
+
+.projet a:hover {
+    background-color: #2488FF;
+}

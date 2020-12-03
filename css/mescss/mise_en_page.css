@@ -1,7 +1,16 @@
-img{
+html{
+    width: 100%;
+}
+
+.logo h1 {
+    top: 0;
+    left:190px;
+    width: 240px;
+    height: 102px;
     text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+    text-indent: -9999px;
+    background-image: url("img/entete\logo.png");
+    background-repeat: no-repeat;
 }
 
 .carousel>h2,header{
@@ -61,9 +70,8 @@ footer .centre div{
     margin-top: -40px;
     margin-left: 30px;
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
-
 
 body>h1,h2,p{
     margin: 40px 15px;
@@ -73,49 +81,48 @@ h3{
     text-align: center;
 }
 
-
-.contact\.module-footer a[href^="mailto:"]{
-    background: url("img/footer/mail.png") no-repeat;
-    background-size:contain ;
-    display: block;
+.fond_footer {
+    position: absolute;
+    top: 1650px;
+    height: 143px;
+    width: 375px;
+    background-color: #B8CACD;
+    margin: 0;
 }
-.contact\.module-footer a{
-    padding-left: 30px;
-}
-
-.réseaux\.module-footer a[href^="https://www.facebook.com"]{
-    background-image: url("img/footer/facebook.png");
-    background-repeat: no-repeat;
-    background-size:contain ;
-    display: block;
-}
-
-.réseaux\.module-footer a{
-    padding-left: 25px;
+.nom_prenom {
+    position: absolute;
+    top: 1625px;
+    left: 19px;
+    color: black;
+    font-size: 10px;
 }
 
-.réseaux\.module-footer a[href^="https://www.twitter.com"]{
-    background-image: url("img/footer/twitter.png");
-    background-repeat: no-repeat;
-    background-size:contain ;
-    display: block;
+.mmi img{
+    position: absolute;
+    top: 1680px;
+    left: 190px;
 }
 
-.réseaux\.module-footer a{
-    padding-left: 25px;
+.mailto p {
+    position: absolute;
+    top: 1625px;
+    left: 225px;
+    color: black;
+    font-size: 10px;
+    text-indent:-9999px;
+    background: url("img\footer\mail.png") no-repeat;
 }
 
-.réseaux\.module-footer a[href^="https://www.instagram.com"]{
-    background-image: url("img/footer/instagram.png");
-    background-repeat: no-repeat;
-    background-size:contain ;
-    display: block;
+.projet {
+    position: absolute;
+    top: 1700px;
+    left: 40px;
+    text-align: center;
+    color: black;
+    font-size: 10px;
 }
 
-.réseaux\.module-footer a{
-    padding-left: 25px;
+.projet a:hover {
+    background-color: #2488FF;
 }
 
-footer div{ /* Chacune des colonnes du FOOTER */
-    width: 215px;/* Largeur de 4 colonnes */
-}
