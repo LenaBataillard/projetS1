@@ -18,31 +18,59 @@ body{
 }
 
 .intro p{
-    font-size: 14px;
+    font-size: 18px;
+    border-style: double;
     text-align: center;
+    border-color: #5F7F80;
     color: black;
     z-index: 0;
 
 }
 
-.intro img{
-    font-size: 14px;
-    text-align: center;
-    margin-top: 0px;
-    z-index: -1;
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
 
+.intro img{
+    border-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: -1;
+}
+
+.chevron>img {
+    position: relative;
+    top:-30px;
+    bottom: 10px;
+    left: 170px;
+    color: #5F7F80;
+}
+
+.chevron>p {
+    text-align: center;
+    position: relative;
+    top:-10px;
+    bottom: 10px;
 }
 
 .groupetitre.titrehaut img,p {
+    font-weight: bold;
+    border-style: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -80px;
-    margin-left: 30px;
     position: relative;
     z-index: -1;
+
 }
 
 .groupetitre.titrebas h2,p{
     margin-top: -40px;
     margin-left: 30px;
+    padding-right: 30px;
     position: relative;
     z-index: 0;
 }
@@ -68,15 +96,15 @@ h3{
 
 .fond_footer {
     position: absolute;
-    top: 1700px;
-    height: 143px;
+    top: 2000px;
+    height: 183px;
     width: 375px;
     background-color: #B8CACD;
     margin: 0;
 }
 .nom_prenom {
     position: absolute;
-    top: 1680px;
+    top: 1980px;
     left: 19px;
     color: black;
     font-size: 10px;
@@ -84,13 +112,13 @@ h3{
 
 .mmi img{
     position: absolute;
-    top: 1740px;
-    left: 167px;
+    top: 2055px;
+    left: 180px;
 }
 
 .mailto p {
     position: absolute;
-    top: 1680px;
+    top: 1980px;
     left: 225px;
     color: black;
     font-size: 10px;
@@ -101,7 +129,7 @@ h3{
 
 .projet {
     position: absolute;
-    top: 1750px;
+    top: 2060px;
     left: 30px;
     text-align: center;
     color: black;

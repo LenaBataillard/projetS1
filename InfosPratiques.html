@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width,initial-scale-1.0">
     <title>Infos Pratique</title>
     <link rel="stylesheet" href="css/lib/normalize.css">
-    <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/menu.css">
-    <link rel="stylesheet" href="css/mescss/mise_en_page.css">
+    <link rel="stylesheet" href="css/mescss/info.css">
 
 </head>
 <body class=" ">
 <header>
-    <h1><a href="">Menu mobile</a></h1>
+    <div class="logo">
+        <a href="index.html"><img src="img/entete/logo.png" alt="logo.png" height="51" width="120"></a>
+    </div>
+    <h4>Informer pour aider à avancer</h4>
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
         <div class="nav-toggle-bar"></div>
     </div>
@@ -34,22 +36,35 @@
     </nav>
 
 </header>
-<h1>Infos Pratiques</h1>
-<h2>A propos </h2>
-
+<div class="groupetitre centrer">
+    <h1>Infos Pratiques</h1>
+    <img src="img/Infos/design.png" alt="re.png" height="165" width="343">
+</div>
 <div class="A_propos">
-<img src="img/Infos/re.png" alt="re.png" height="296" width="296">
-<p>Ce site a été créé par Lena Bataillard dans le cadre
+    <div class="img loupe">
+        <img src="img/Infos/gg.png" alt="gg.png" height="99" width="104">
+    </div>
+    <div class="img insta">
+<img src="img/Infos/re.png" alt="re.png" height="121" width="121">
+    </div>
+    <h2>A propos </h2>
+        <p>Ce site a été créé par Lena Bataillard dans le cadre
     d’un projet pédagogique de 1er année au DUT MMI
     de Montbéliard qui forme au métier du web en
     deux ans.
     Le projet a pour but de dénoncer la pollution
     numérique à travers un élément d’introduction
     comme un film, une série ou un livre. </p>
+    <div class="img logommi">
     <img src="img/Infos/MMI.png" alt="MMI.png" height="75" width="151">
-    <img src="img/Infos/da.png" alt="da.png" height="223" width="210">
-        <img src="img/Infos/wo.png" alt="wo.jpg" height="214" width="250">
-</div>
+    </div>
+        <div class="img work">
+            <img src="img/Infos/wo.png" alt="wo.jpg" height="116" width="128">
+        </div>
+    <div class="img data">
+        <img src="img/Infos/da.png" alt="da.png" height="124" width="132">
+    </div>
+        </div>
 
 <h2>Autre projet</h2>
 
@@ -58,63 +73,86 @@ voir ceux de mes camarades, qui aborderont, avec
 un autre point de vue et un autre support
 d’introduction, le sujet de la pollution numérique.</p>
 
-<div class="slider"></div>
-    <div class="slides">
-        <div class="slide"><img  src="img/autresprojet/her.png" alt="her.jpg" /></div>
-        <div class="slide"><img  src="img/autresprojet/ghost.png" alt="ghost.jpg"/></div>
-        <div class="slide"><img  src="img/autresprojet/BM.png" alt="BM.jpg"/></div>
-        <div class="slide"><img  src="img/autresprojet/drugs.png" alt="drugs.jpg" /></div>
-        <div class="slide"><img  src="img/autresprojet/south.png" alt="south.jpg" /></div>
-        <div class="slide"><img  src="img/autresprojet/code.png" alt="code.jpg" /></div>
-        <div class="slide"><img  src="img/autresprojet/girlboss.png" alt="girlboss.jpg" /></div>
-        <div class="slide"><img  src="img/autresprojet/oueil.png" alt="oueil.jpg" /></div>
-        <div class="slide"><img  src="img/autresprojet/BladeRunner.png" alt="BladeRunner.png" /></div>
-        <div class="slide"><img  src="img/autresprojet/hackers.png" alt="hackers.jpg" /></div>
-        <div class="slide"><img  src="img/autresprojet/social.png" alt="social.jpg" /></div>
-    </div>
+<main>
+    <section class="carousel">
+        <ul class="carousel-items">
+            <li class="carousel-items">
+                <img src="img/autresprojet/her.png">
+            </li>
+            <li class="carousel-items">
+                <img src="img/autresprojet/ghost.png">
+            </li>
+            <li class="carousel-items">
+                <img src="img/autresprojet/BM.png">
+            </li>
+            <li class="carousel-items">
+                <img src="img/autresprojet/drugs.png">
+            </li>
+            <li class="carousel-items">
+                <img src="img/autresprojet/south.png">
+            </li>
+            <li class="carousel-items">
+                <img src="img/autresprojet/code.png">
+            </li>
+            <li class="carousel-items">
+                <img src="img/autresprojet/girlboss.png">
+            </li>
+            <li class="carousel-items">
+                <img src="img/autresprojet/oueil.png">
+            </li>
+            <li class="carousel-items">
+                <img src="img/autresprojet/BladeRunner.png">
+            </li>
+            <li class="carousel-items">
+                <img src="img/autresprojet/hackers.png">
+            </li>
+            <li class="carousel-items">
+                <img src="img/autresprojet/social.png">
+            </li>
+        </ul>
+    </section>
+</main>
+<div class="chevron">
+<img src="img/autresprojet/chevron.png" alt="chevron.png" height="13" width="87">
 </div>
 
+
 <h2>Formulaire de contact</h2>
-<img src="img/formulaire/contact.jpg" alt="contact.jpg" height="156" width="156">
+<div class="fondformulaire"></div>
+<div class="imgformul">
+<img src="img/formulaire/contact.png" alt="contact.jpg" height="155" width="125">
+</div>
 <form action="/ma-page-de-traitement" method="post">
-    <div>
+    <div class="nom">
         <label for="name">Nom :</label>
         <input type="text" id="name" name="user_name">
     </div>
-    <div>
+    <div class="mail">
         <label for="mail">e-mail :</label>
         <input type="email" id="mail" name="user_mail">
     </div>
-    <div>
+    <div class="msg">
         <label for="msg">Message :</label>
         <textarea id="msg" name="user_message"></textarea>
     </div>
 </form>
     <div class="button">
-        <button type="submit">Envoyer le message</button>
+        <button type="submit">Envoyer</button>
     </div>
 <footer>
-    <div class="centre">
-        <div class="nom">
-            <p>Lena Bataillard</p>
-            <p>A1</p>
-        </div>
-
-        <div class="mention-legales.module-footer">
-            <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com">MMI de montbéliard</a></p>
-        </div>
-
-        <div class="réseaux.module-footer">
-            <ul>
-                <li><a href="https://www.facebook.com/mmimontbeliard">Facebook</a></li>
-                <li><a href="https://twitter.com/MMImontbeliard">Twitter</a></li>
-                <li><a href="mailto:lena.bataillard3@gmail.com">Mail</a></li>
-                <li><a href="https://www.instagram.com/mmi_montbeliard/?hl=fr">instagram</a></li>
-
-            </ul>
-        </div>
+    <div class="fond_footer"></div>
+    <div class="nom_prenom">
+        <p>Lena Bataillard A1</p>
+    </div>
+    <div class="mmi">
+        <a href="http://mmimontbeliard.com"><img src="img/footer/MMI.png" alt="logo.png" height="45" width="40">
+    </div>
+    <div class="mailto">
+        <p><a href="mailto:lena.bataillard3@gmail"> mailto:lena.bataillard3@gmail </a></p>
+    </div>
+    <div class="projet">
+        <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com"> MMI de Montbéliard</a></p>
     </div>
 </footer>
-
 </body>
 </html>
