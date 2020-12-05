@@ -134,7 +134,7 @@ li.carousel-items{
 .fond_footer {
     position: absolute;
     top: 4250px;
-    height: 160px;
+    height: 183px;
     width: 375px;
     background-color: #B8CACD;
     margin: 0;
@@ -153,15 +153,31 @@ li.carousel-items{
     left: 180px;
 }
 
-.mailto p {
+.mailto{
     position: absolute;
-    top: 4330px;
-    left: 225px;
-    color: black;
-    font-size: 10px;
-    text-indent: -999px;
-    background-image: image("mail.png");
+    top: 4260px;
+    left: 330px;
+}
 
+
+.facebook{
+    position: absolute;
+    top: 4262px;
+    left: 305px;
+
+}
+
+.instagram{
+    position: absolute;
+    top: 4265px;
+    left: 272px;
+
+}
+
+.twitter {
+    position: absolute;
+    top: 4265px;
+    left: 238px;
 }
 
 .projet {
