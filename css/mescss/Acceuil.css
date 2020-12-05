@@ -116,14 +116,31 @@ h3{
     left: 180px;
 }
 
-.mailto p {
+.mailto{
     position: absolute;
-    top: 1980px;
-    left: 225px;
-    color: black;
-    font-size: 10px;
-    text-indent: -999px;
-    background-image: image("mail.png");
+    top: 2020px;
+    left: 330px;
+
+}
+
+.facebook{
+    position: absolute;
+    top: 2023px;
+    left: 305px;
+
+}
+
+.instagram{
+    position: absolute;
+    top: 2025px;
+    left: 272px;
+
+}
+
+.twitter{
+    position: absolute;
+    top: 2025px;
+    left: 238px;
 
 }
 

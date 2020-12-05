@@ -134,7 +134,7 @@ li.carousel-items{
 .fond_footer {
     position: absolute;
     top: 5050px;
-    height: 143px;
+    height: 160px;
     width: 375px;
     background-color: #B8CACD;
     margin: 0;
@@ -150,7 +150,7 @@ li.carousel-items{
 .mmi img{
     position: absolute;
     top: 5090px;
-    left: 167px;
+    left: 180px;
 }
 
 .mailto p {
@@ -166,7 +166,7 @@ li.carousel-items{
 
 .projet {
     position: absolute;
-    top: 5100px;
+    top: 5105px;
     left: 30px;
     text-align: center;
     color: black;
