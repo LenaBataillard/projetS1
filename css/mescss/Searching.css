@@ -129,7 +129,7 @@ li.carousel-items{
 }
 .nom_prenom {
     position: absolute;
-    top: 3460px;
+    top: 3430px;
     left: 19px;
     color: black;
     font-size: 10px;
@@ -141,14 +141,31 @@ li.carousel-items{
     left: 180px;
 }
 
-.mailto p {
+.mailto{
     position: absolute;
     top: 3460px;
-    left: 225px;
-    color: black;
-    font-size: 10px;
-    text-indent: -999px;
-    background-image: image("mail.png");
+    left: 330px;
+}
+
+
+.facebook{
+    position: absolute;
+    top: 3462px;
+    left: 305px;
+
+}
+
+.instagram{
+    position: absolute;
+    top: 3465px;
+    left: 272px;
+
+}
+
+.twitter{
+    position: absolute;
+    top: 3465px;
+    left: 238px;
 
 }
 
