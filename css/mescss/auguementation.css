@@ -97,10 +97,13 @@ h2{
 p{
     margin-left: 30px;
     margin-right: 20px;
+    line-height: 30px;
 }
 
-.Images-items{
+.Images-items img{
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -143,7 +146,7 @@ li.carousel-items{
 
 .fond_footer {
     position: absolute;
-    top: 3650px;
+    top: 4550px;
     height: 183px;
     width: 375px;
     background-color: #B8CACD;
@@ -151,7 +154,7 @@ li.carousel-items{
 }
 .nom_prenom {
     position: absolute;
-    top: 3630px;
+    top: 4530px;
     left: 19px;
     color: black;
     font-size: 10px;
@@ -159,46 +162,50 @@ li.carousel-items{
 
 .mmi img{
     position: absolute;
-    top: 3690px;
+    top: 4590px;
     left: 180px;
 }
 
 
 .mailto{
     position: absolute;
-    top: 3660px;
+    top: 4560px;
     left: 330px;
 }
 
 
 .facebook{
     position: absolute;
-    top: 3662px;
+    top: 4562px;
     left: 305px;
 
 }
 
 .instagram{
     position: absolute;
-    top: 3665px;
+    top: 4565px;
     left: 272px;
 
 }
 
 .twitter {
     position: absolute;
-    top: 3665px;
+    top: 4565px;
     left: 238px;
 }
 
 
 .projet {
     position: absolute;
-    top: 3705px;
+    top: 4605px;
     left: 30px;
     text-align: center;
     color: black;
     font-size: 10px;
+}
+
+.projet p {
+    line-height: 18px;
 }
 
 .projet a:hover {

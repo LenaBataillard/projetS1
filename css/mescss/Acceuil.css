@@ -112,7 +112,7 @@ h3{
 
 .mmi img{
     position: absolute;
-    top: 2055px;
+    top: 2040px;
     left: 180px;
 }
 
@@ -146,11 +146,15 @@ h3{
 
 .projet {
     position: absolute;
-    top: 2060px;
+    top: 2040px;
     left: 30px;
     text-align: center;
     color: black;
     font-size: 10px;
+}
+
+.projet p{
+    line-height: 18px;
 }
 
 .projet a:hover {
