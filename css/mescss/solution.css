@@ -76,6 +76,7 @@ p{
     margin-left: 30px;
     margin-right: 20px;
     line-height: 30px;
+    padding-top: 60px;
 }
 
 
@@ -95,10 +96,9 @@ h2{
 }
 
 
-.article img, video{
-    position: relative;
-    margin-left: 20px ;
-    margin-top: 30px;
+.Images-items{
+    align-items: center;
+    padding-top: 10px;
 }
 
 
@@ -140,7 +140,7 @@ li.carousel-items{
 
 .fond_footer {
     position: absolute;
-    top: 4250px;
+    top: 5250px;
     height: 183px;
     width: 375px;
     background-color: #B8CACD;
@@ -148,7 +148,7 @@ li.carousel-items{
 }
 .nom_prenom {
     position: absolute;
-    top: 4230px;
+    top: 5240px;
     left: 19px;
     color: black;
     font-size: 10px;
@@ -156,40 +156,40 @@ li.carousel-items{
 
 .mmi img{
     position: absolute;
-    top: 4290px;
+    top: 5290px;
     left: 180px;
 }
 
 .mailto{
     position: absolute;
-    top: 4260px;
+    top: 5260px;
     left: 330px;
 }
 
 
 .facebook{
     position: absolute;
-    top: 4262px;
+    top: 5262px;
     left: 305px;
 
 }
 
 .instagram{
     position: absolute;
-    top: 4265px;
+    top: 5265px;
     left: 272px;
 
 }
 
 .twitter {
     position: absolute;
-    top: 4265px;
+    top: 5265px;
     left: 238px;
 }
 
 .projet {
     position: absolute;
-    top: 4305px;
+    top: 5325px;
     left: 30px;
     text-align: center;
     color: black;
