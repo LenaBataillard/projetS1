@@ -45,9 +45,6 @@ h2{
     padding-bottom: 15px;
 }
 
-.carousel-items h3{
-
-}
 
 h4 {
     position: relative;
@@ -61,9 +58,13 @@ h4 {
 
 p{
     margin: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
     color: black;
 
 }
+
+
 .img.loupe{
     margin-left: 20px;
     margin-top: 20px;
