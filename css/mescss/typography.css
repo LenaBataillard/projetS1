@@ -6,8 +6,7 @@ body{
     background: white;
     font-family: "Merriweather", sans-serif;
     font-size:16px;
-    line-height:2.0;
-    margin:0 ;
+    line-height:30px;
 }
 
 h1{
@@ -29,3 +28,43 @@ a{
     color: black;
 }
 
+.intro p{
+    color: black;
+    font-size: 18px;
+}
+
+.chevron p{
+    font-size: 15px;
+    font-family: Merriweather, sans-serif;
+}
+
+footer {
+    color: black;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+label{
+    font-family: Merriweather, sans-serif;
+}
+
+input {
+    font-family: Merriweather, sans-serif;
+}
+
+textarea{
+    font-family: Merriweather, sans-serif;
+}
+
+.projet {
+    color: black;
+    font-size: 12px;
+}
+
+.projet p{
+    line-height: 18px;
+}
+
+.projet a:hover {
+    background-color: #2488FF;
+}
