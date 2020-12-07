@@ -1,16 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 html{
     width: 100%;
 }
 
-.logo h1 {
-    top: 0;
-    left:190px;
-    width: 240px;
-    height: 102px;
+body{
+    background: white;
+    font-family: "Merriweather", sans-serif;
+    font-size:16px;
+}
+
+.header_Items {
+    align-items: center;
     text-align: center;
-    text-indent: -9999px;
-    background-image: url("img/entete\logo.png");
-    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.header_Items> h4{
+    position: relative;
+    font-family: Merriweather,sans-serif;
+    font-size: 9px;
+    color: #5F7F80;
+    top:-30px;
+}
+
+.intro p{
+    text-align: center;
+    position: relative;
+    top: 0px;
+    margin-bottom: 50px;
+    z-index: 0;
+}
+
+.intro img{
+    margin-top: -10px;
+    z-index: -1;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.chevron p{
+    text-align: center;
+    position: relative;
+    top:5px;
+    margin-bottom: 0px;
+
+}
+
+.chevron>img {
+    position: relative;
+    top:30px;
+    margin-bottom: 60px;
+    left: 170px;
+    color: #5F7F80;
+}
+
+.article>h2{
+    text-align: center;
+    bottom: 30px;
+
+}
+
+.Images-items{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+
+.groupetitre.titrehaut_Items {
+    font-weight: bold;
+    border-style: none;
+    display: block;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    z-index: -1;
+
+}
+
+.groupetitre.titrehaut_Items>p,h2,h1 {
+    margin: 40px 30px -40px 20px;
+    position: relative;
+    text-align: left;
+}
+
+.groupetitre.titrebas h2{
+    margin-top: -40px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 0;
+}
+
+.groupetitre.centrer img{
+    margin-top: -30px;
+    margin-left: 30px;
+    position: relative;
+    z-index: -1;
+}
+
+.groupetitre.centrer h1{
+    text-align: center;
+    position: relative;
+    z-index: 0;
+}
+
+.img.loupe{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: -135px;
+}
+
+.img.insta{
+    margin-left: 230px;
+    padding-top: 50px;
+    margin-bottom: -60px;
+}
+
+.img.logommi{
+    margin-left: 135px;
+    margin-top: -30px;
+}
+
+.img.data{
+    margin-left: 190px;
+    margin-top: -120px;
+}
+
+.img.work{
+    position: relative;
+    margin-left: 20px;
+    top: -40px;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.article>p{
+    padding: 10px 20px 10px 30px;
+}
+
+.info{
+    padding: 10px 20px 10px 30px;
 }
 
 .carousel>h2,header{
@@ -18,14 +153,14 @@ html{
 }
 
 .carousel{
-    background-color:white;
-    color: black;
     padding:20px 0 ;
 }
 
 .carousel-items{
-    list-style: none;
-    padding: 20px 0;
+    margin-top: 0;
+    padding-right: 0;
+    padding-left: 140px;
+    padding-bottom: 20px;
     display: flex;
     overflow: scroll;
     scroll-snap-type: x mandatory;
@@ -41,88 +176,137 @@ li.carousel-items{
     height: 2px;
 }
 
-::-webkit-scrollbar-track{
-    background-color:white;
-}
 
-::-webkit-scrollbar-thumb{
-    background-color:white;
-}
-
-.A_propos>img{
-    margin-top: 80px;
-}
-
-footer .centre div{
-    display:inline-block;
-    column-count:auto;
-    vertical-align:top;
-}
-
-.groupetitre.titrehaut img,p {
-    margin-top: -80px;
-    margin-left: 30px;
+.chevron{
     position: relative;
+    top:-50px;
+    margin-left: -20px;
+}
+
+.fondformulaire{
+    position: relative;
+    height: 340px;
+    width: 375px;
+    top:30px;
     z-index: -1;
 }
 
-.groupetitre.titrebas h2,p{
-    margin-top: -40px;
-    margin-left: 30px;
+.imgformul{
     position: relative;
-    z-index: 0;
+    top: -300px;
+    padding-left: 240px;
+
 }
 
-body>h1,h2,p{
-    margin: 40px 15px;
+.nom{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    top: -470px;
+    left: 10px;
+    z-index:0;
 }
 
-h3{
-    text-align: center;
+label{
+    position: relative;
+    z-index:1;
+}
+
+input{
+    position: relative;
+    height: 35px;
+    z-index:1;
+}
+
+
+textarea{
+    position: relative;
+    width: 340px;
+    height: 100px;
+    z-index:1;
+}
+
+
+.mail{
+    position: relative;
+    width: 100px;
+    height: 80px;
+    top: -450px;
+    left: 10px;
+    z-index:0;
+}
+
+.msg{
+    position: relative;
+    width: 325px;
+    height: 50px;
+    top: -450px;
+    left: 10px;
+    z-index:0;
+}
+
+.button{
+    position: relative;
+    width: 100px;
+    z-index:0;
+    top: -355px;
+    left: 245px;
+    color: #9BE2F2;
 }
 
 .fond_footer {
-    position: absolute;
-    top: 1650px;
-    height: 143px;
+    position: relative;
+    height: 183px;
     width: 375px;
     background-color: #B8CACD;
     margin: 0;
 }
 .nom_prenom {
-    position: absolute;
-    top: 1625px;
-    left: 19px;
-    color: black;
-    font-size: 10px;
+    position: relative;
+    margin-top:-170px;
+    margin-left:50px;
 }
 
-.mmi img{
-    position: absolute;
-    top: 1680px;
-    left: 190px;
+.mailto{
+    position: relative;
+    margin-left: 340px;
+    margin-top: -30px;
 }
 
-.mailto p {
-    position: absolute;
-    top: 1625px;
-    left: 225px;
-    color: black;
-    font-size: 10px;
-    text-indent:-9999px;
-    background: url("img\footer\mail.png") no-repeat;
+.facebook{
+    position: relative;
+    margin-left: 310px;
+    margin-top: -25px;
 }
+
+.instagram{
+    position: relative;
+    margin-left: 270px;
+    margin-top: -23px;
+}
+
+.twitter{
+    position: relative;
+    margin-left: 230px;
+    margin-top: -26px;
+}
+
+
+.mmi {
+    position: relative;
+    margin-top:10px;
+    margin-left: 175px;
+    display: block;
+}
+
 
 .projet {
-    position: absolute;
-    top: 1700px;
-    left: 40px;
+    position: relative;
+    top: 5px;
     text-align: center;
     color: black;
-    font-size: 10px;
+    font-size: 12px;
 }
 
-.projet a:hover {
-    background-color: #2488FF;
-}
+
 

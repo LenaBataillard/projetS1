@@ -10,6 +10,7 @@ body{
     font-size:16px;
 }
 
+
 .logo img {
     z-index: 4;
     position: absolute;
@@ -81,7 +82,7 @@ h4{
     font-family: Merriweather,sans-serif;
     font-size: 9px;
     margin-top: 70px;
-    margin-left: 119px;
+    text-align: center;
     color: #5F7F80;
 
 }
