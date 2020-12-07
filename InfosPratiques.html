@@ -6,33 +6,35 @@
     <title>Infos Pratique</title>
     <link rel="stylesheet" href="css/lib/normalize.css">
     <link rel="stylesheet" href="css/mescss/menu.css">
-    <link rel="stylesheet" href="css/mescss/info.css">
+    <link rel="stylesheet" href="css/mescss/mise_en_page.css">
+    <link rel="stylesheet" href="css/mescss/typography.css">
+    <link rel="stylesheet" href="css/mescss/style_graphique.css">
 
 </head>
 <body class=" ">
 <header>
-    <div class="logo">
+    <div class="header_Items">
         <a href="index.html"><img src="img/entete/logo.png" alt="logo.png" height="51" width="120"></a>
+        <h4>Informer pour aider à avancer</h4>
     </div>
-    <h4>Informer pour aider à avancer</h4>
     <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
         <div class="nav-toggle-bar"></div>
     </div>
     <nav class="menu" >
         <ul>
-        <li><a href="index.html">Acceuil</a></li>
-        <div id="index.html"><hr></div>
-        <li><a href="searching.html">Searching : Portée disparue</a></li>
-        <div id="searching.html"><hr></div>
-        <li><a href="pollution.html">La pollution numérique</a></li>
-        <div id="pollution.html"><hr></div>
-        <li><a href="solutions.html">Les différentes solutions</a></li>
-        <div id="solutions.html"><hr></div>
-        <li><a href="auguementation.html">l'augmentation de l'utilisation du numérique </a></li>
-        <div id="auguementation.html"><hr></div>
-        <li><a href="InfosPratiques.html">infos pratiques</a></li>
-        <div id="InfosPratiques.html"><hr></div>
-    </ul>
+            <li><a href="index.html">Acceuil</a></li>
+            <div id="index.html"><hr></div>
+            <li><a href="searching.html">Searching : Portée disparue</a></li>
+            <div id="searching.html"><hr></div>
+            <li><a href="pollution.html">La pollution numérique</a></li>
+            <div id="pollution.html"><hr></div>
+            <li><a href="solutions.html">Les différentes solutions</a></li>
+            <div id="solutions.html"><hr></div>
+            <li><a href="auguementation.html">l'augmentation de l'utilisation du numérique </a></li>
+            <div id="auguementation.html"><hr></div>
+            <li><a href="InfosPratiques.html">infos pratiques</a></li>
+            <div id="InfosPratiques.html"><hr></div>
+        </ul>
     </nav>
 
 </header>
@@ -45,34 +47,36 @@
         <img src="img/Infos/gg.png" alt="gg.png" height="99" width="104">
     </div>
     <div class="img insta">
-<img src="img/Infos/re.png" alt="re.png" height="121" width="121">
+        <img src="img/Infos/re.png" alt="re.png" height="121" width="121">
     </div>
     <h2>A propos </h2>
+    <div class="info">
         <p>Ce site a été créé par Lena Bataillard dans le cadre
-    d’un projet pédagogique de 1er année au DUT MMI
-    de Montbéliard qui forme au métier du web en
-    deux ans.
-    Le projet a pour but de dénoncer la pollution
-    numérique à travers un élément d’introduction
-    comme un film, une série ou un livre. </p>
-    <div class="img logommi">
-    <img src="img/Infos/MMI.png" alt="MMI.png" height="75" width="151">
+            d’un projet pédagogique de 1er année au DUT MMI
+            de Montbéliard qui forme au métier du web en
+            deux ans.
+            Le projet a pour but de dénoncer la pollution
+            numérique à travers un élément d’introduction
+            comme un film, une série ou un livre. </p>
     </div>
-        <div class="img work">
-            <img src="img/Infos/wo.png" alt="wo.jpg" height="116" width="128">
-        </div>
+    <div class="img logommi">
+        <img src="img/Infos/MMI.png" alt="MMI.png" height="75" width="151">
+    </div>
+    <div class="img work">
+        <img src="img/Infos/wo.png" alt="wo.jpg" height="116" width="128">
+    </div>
     <div class="img data">
         <img src="img/Infos/da.png" alt="da.png" height="124" width="132">
     </div>
-        </div>
+</div>
 
 <h2>Autre projet</h2>
-
-<p>Si vous avez aimé ce projet, je vous invite à aller
-voir ceux de mes camarades, qui aborderont, avec
-un autre point de vue et un autre support
-d’introduction, le sujet de la pollution numérique.</p>
-
+<div class="info">
+    <p>Si vous avez aimé ce projet, je vous invite à aller
+        voir ceux de mes camarades, qui aborderont, avec
+        un autre point de vue et un autre support
+        d’introduction, le sujet de la pollution numérique.</p>
+</div>
 <main>
     <section class="carousel">
         <ul class="carousel-items">
@@ -113,18 +117,18 @@ d’introduction, le sujet de la pollution numérique.</p>
     </section>
 </main>
 <div class="chevron">
-<img src="img/autresprojet/chevron.png" alt="chevron.png" height="13" width="87">
+    <img src="img/autresprojet/chevron.png" alt="chevron.png" height="13" width="87">
 </div>
 
 
 <h2>Formulaire de contact</h2>
 <div class="fondformulaire"></div>
 <div class="imgformul">
-<img src="img/formulaire/contact.png" alt="contact.jpg" height="155" width="125">
+    <img src="img/formulaire/contact.png" alt="contact.jpg" height="155" width="125">
 </div>
 <form action="/ma-page-de-traitement" method="post">
     <div class="nom">
-        <label for="name">Nom&nbspet&nbspprénom&nbsp:</label>
+        <label for="name">Nom&nbsp:</label>
         <input type="text" id="name" name="user_name">
     </div>
     <div class="mail">
@@ -136,16 +140,14 @@ d’introduction, le sujet de la pollution numérique.</p>
         <textarea id="msg" name="user_message"></textarea>
     </div>
 </form>
-    <div class="button">
-        <button type="submit">Envoyer</button>
-    </div>
+<div class="button">
+    <button type="submit">Envoyer</button>
+</div>
+
 <footer>
     <div class="fond_footer"></div>
     <div class="nom_prenom">
         <p>Lena Bataillard A1</p>
-    </div>
-    <div class="mmi">
-        <a href="http://mmimontbeliard.com"><img src="img/footer/MMI.png" alt="MMI.png" height="45" width="40"> </a>
     </div>
     <div class="mailto">
         <a href="mailto:lena.bataillard3@gmail"><img src="img/footer/mail.png" alt="mail.png" height="25" width="25"> </a>
@@ -158,6 +160,9 @@ d’introduction, le sujet de la pollution numérique.</p>
     </div>
     <div class="twitter">
         <a href="https://twitter.com/mmimontbeliard?lang=fr"><img src="img/footer/twitter.png" alt="twitter.png" height="20" width="23"> </a>
+    </div>
+    <div class="mmi">
+        <a href="http://mmimontbeliard.com"><img src="img/footer/MMI.png" alt="MMI.png" height="45" width="40"> </a>
     </div>
     <div class="projet">
         <p>Projet réalisé dans le cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com"> MMI de Montbéliard</a></p>
