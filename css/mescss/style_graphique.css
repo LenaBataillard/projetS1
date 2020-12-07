@@ -1,0 +1,34 @@
+.intro p {
+    border-style: double;
+    border-color: #5F7F80;
+}
+
+.intro img {
+    border-style: none;
+}
+
+.carousel {
+    background-color: white;
+    color: black;
+}
+
+.carousel-items {
+    list-style: none;
+}
+
+::-webkit-scrollbar-track{
+    background-color:white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:white;
+}
+
+.fondformulaire {
+    background-color: #5F7F80;
+}
+
+.fond_footer {
+    background-color: #B8CACD;
+
+}
