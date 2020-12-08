@@ -3,6 +3,17 @@
     border-color: #5F7F80;
 }
 
+
+.header_Items> h4{
+    color: #5F7F80;
+}
+
+
+.chevronIndex p {
+    border-style: double;
+    border-color: #5F7F80;
+}
+
 .intro img {
     border-style: none;
 }
