@@ -4,22 +4,17 @@ html{
     width: 100%;
 }
 
-body{
-    background: white;
-    font-family: "Merriweather", sans-serif;
-    font-size:16px;
-}
 
 .header_Items {
     margin-left: 100px;
-    margin-top: 5px;
+    top:    18px;
     position: relative;
     z-index: 4;
 }
 
 .header_Items> h4{
     position: relative;
-    margin-top:-20px;
+    margin-top:-25px;
     margin-bottom: 40px;
     z-index: 4;
 }
@@ -29,6 +24,8 @@ body{
     position: relative;
     top: 20px;
     margin-bottom: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .intro img{
