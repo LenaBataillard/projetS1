@@ -8,10 +8,14 @@
     color: #5F7F80;
 }
 
+h4{
+    color: black;
+}
 
 .chevronIndex p {
     border-style: double;
     border-color: #5F7F80;
+    text-align: center;
 }
 
 .intro img {
