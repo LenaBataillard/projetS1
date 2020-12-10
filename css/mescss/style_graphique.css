@@ -47,3 +47,9 @@ h4{
     background-color: #B8CACD;
 
 }
+
+footer>.projet>p>a{
+    color: #2488FF;
+    font-weight: bold;
+    font-style: italic;
+}

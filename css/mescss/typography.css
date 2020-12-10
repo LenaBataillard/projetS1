@@ -56,6 +56,11 @@ a{
     font-family: "Merriweather", sans-serif;
 }
 
+.carousel>p{
+    font-size:14px;
+    font-family: "Merriweather", sans-serif;
+}
+
 footer {
     color: black;
     font-size: 12px;

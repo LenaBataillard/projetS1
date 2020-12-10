@@ -208,7 +208,7 @@ h3{
 .carousel-items{
     margin-top: 0;
     padding-right: 0;
-    padding-left: 140px;
+    padding-left: 55px;
     padding-bottom: 20px;
     display: flex;
     overflow: scroll;
@@ -216,6 +216,35 @@ h3{
 }
 
 li.carousel-items{
+    flex: 1 0 320px;
+    margin-right:20px;
+    scroll-snap-align:center;
+}
+
+.carousel>p{
+    margin: 0 20px;
+}
+
+
+.carouselInfos>h2,header{
+    margin: 0 20px;
+}
+
+.carouselInfos{
+    padding:20px 0 ;
+}
+
+.carouselInfos-items{
+    margin-top: 0;
+    padding-right: 0;
+    padding-left: 140px;
+    padding-bottom: 20px;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+li.carouselInfos-items{
     flex: 1 0 320px;
     margin-right:20px;
     scroll-snap-align:center;
