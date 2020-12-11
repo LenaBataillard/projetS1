@@ -64,6 +64,13 @@ html{
     margin-right: auto
 }
 
+blockquote>p{
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    line-height: 12px;
+}
+
 .video{
     padding-left: 20px;
     padding-right: 10px;
@@ -262,7 +269,6 @@ li.carouselInfos-items{
 }
 
 form {
-    background-color: #5F7F80;
     height: 340px;
     z-index: -1;
     padding: 10px;
