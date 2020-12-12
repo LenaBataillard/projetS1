@@ -9,10 +9,14 @@ html{
     font-size:1.6em ;
     line-height: 1.6;
     margin: 0 20px;
+    background-color: white;
+    background-image:url("css/mescss/PUB.jpg");
 }
+
 
 .menu>ul>li>a{
     font-family: "Lora", sans-serif;
+    font-size: 15px;
 }
 
 a{

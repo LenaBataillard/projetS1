@@ -36,13 +36,6 @@ html{
     margin-bottom: 20px;
 }
 
-.chevron>img{
-    margin-left: 165px;
-    position: relative;
-    top:0;
-    margin-bottom: 0;
-
-}
 
 .chevronIndex img {
     top:30px;
@@ -51,6 +44,7 @@ html{
     color: #5F7F80;
 
 }
+
 
 .article>h2{
     text-align: center;
@@ -77,6 +71,18 @@ blockquote>p{
 }
 
 
+.groupetitre.titrehaut_Items {
+    font-weight: bold;
+    border-style: none;
+    display: block;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+    z-index: -1;
+
+}
+
 
 .groupetitre.titrehaut_Items {
     font-weight: bold;
@@ -85,6 +91,7 @@ blockquote>p{
     position: relative;
     align-items: center;
     text-align: center;
+    margin-bottom: 80px;
     z-index: -1;
 
 }
@@ -115,6 +122,7 @@ blockquote>p{
     position: relative;
     align-items: center;
     text-align: center;
+    margin-bottom: 80px;
     z-index: -1;
 
 }
@@ -129,6 +137,7 @@ blockquote>p{
 .groupetitre.titrebas h2{
     margin-top: -40px;
     margin-left: 80px;
+    margin-right: 30px;
     margin-bottom: 40px;
     text-align: left;
     position: relative;
@@ -136,7 +145,7 @@ blockquote>p{
 }
 
 .groupetitre.centrer img{
-    margin-top: -60px;
+    margin-top: -50px;
     margin-left: 30px;
     position: relative;
     z-index: -1;
@@ -181,6 +190,8 @@ blockquote>p{
 h2{
     text-align: center;
     padding-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 h3{
@@ -197,7 +208,10 @@ h3{
 }
 
 .article>p{
-    padding: 10px 20px 10px 30px;
+    padding-top: -10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
 }
 
 .info{
@@ -334,18 +348,18 @@ textarea{
 .nom_prenom {
     position: relative;
     margin-top:-170px;
-    margin-left:50px;
+    margin-left:45px;
 }
 
 .mailto{
     position: relative;
-    margin-left: 340px;
+    margin-left: 320px;
     margin-top: -38px;
 }
 
 .facebook{
     position: relative;
-    margin-left: 310px;
+    margin-left: 300px;
     margin-top: -27px;
 }
 
@@ -357,7 +371,7 @@ textarea{
 
 .twitter{
     position: relative;
-    margin-left: 230px;
+    margin-left: 240px;
     margin-top: -25px;
 }
 
