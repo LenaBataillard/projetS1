@@ -4,6 +4,30 @@
 }
 
 
+.index1{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: double;
+    color: #B8CACD;
+}
+
+.index2{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: double;
+    color: #5F7F80;
+}
+
+.index3{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: double;
+    color: #A0CA9E;
+}
+
 .header_Items> h4{
     color: #5F7F80;
 }
