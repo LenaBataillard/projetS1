@@ -31,13 +31,13 @@ a:hover{
 .nav-toggle{
     width: 30px;
     height: 30px;
-    position: absolute;
+    position: fixed;
     top: 30px;
     right: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 4;
+    z-index: 5;
 }
 
 .nav-toggle-bar,

@@ -26,14 +26,9 @@ h2{
 
 h3{
     font-family: "Lora", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
     font-weight: bold;
-}
-
-.header_Items> h4 {
-    font-family: "Merriweather", sans-serif;
-    font-size: 9px;
 }
 
 h4{
@@ -41,14 +36,27 @@ h4{
     font-size: 9px;
 }
 
-blockquote>p{
+.header_Items> h4 {
     font-family: "Merriweather", sans-serif;
     font-size: 9px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+aside{
+    font-family: Merriweather, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.article>blockquote>p{
+    font-family: "Merriweather", sans-serif;
+    font-size: 9px;
+}
+
+blockquote>p{
+    font-family: "Merriweather", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
 }
 
 .intro p{
@@ -64,6 +72,19 @@ a{
 .carousel>p{
     font-size:14px;
     font-family: "Merriweather", sans-serif;
+}
+
+.projet p{
+    line-height: 18px;
+}
+
+.projet a:hover {
+    background-color: #2488FF;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 footer {
@@ -89,10 +110,4 @@ textarea{
     font-size: 12px;
 }
 
-.projet p{
-    line-height: 18px;
-}
 
-.projet a:hover {
-    background-color: #2488FF;
-}

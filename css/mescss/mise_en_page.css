@@ -5,57 +5,67 @@ html{
     scroll-behavior: smooth;
 }
 
-
-.header_Items {
-    margin-left: 100px;
-    top:    18px;
-    position: relative;
-    z-index: 4;
+.header_Items{
+    margin-top: 10px;
+    margin-left: 120px;
 }
 
-.header_Items> h4{
-    position: relative;
+#fond_header {
+    position:fixed;
+    background-color: white;
+    height:80px;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    z-index:4;
+}
+
+#fond_header>.header_Items> h4{
+    position:relative;
     margin-top:-25px;
-    margin-bottom: 40px;
-    z-index: 4;
+    margin-bottom:40px;
+    z-index:4;
 }
 
-.intro p{
-    text-align: center;
+.intro p {
     position: relative;
-    top: 20px;
+    top: 80px;
     margin-bottom: 60px;
     margin-left: 10px;
     margin-right: 10px;
+    text-align: center;
 }
 
 .intro img{
-    margin-top: -10px;
+    margin-top: 60px;
     z-index: -1;
     position: relative;
     margin-bottom: 20px;
 }
-
 
 .chevronIndex img {
     top:30px;
     margin-bottom: 60px;
     padding-left: 170px;
     color: #5F7F80;
-
 }
-
 
 .article>h2{
     text-align: center;
     bottom: 30px;
-
 }
 
 .Images-items{
     display: block;
     margin-left: auto;
     margin-right: auto
+}
+
+.article>blockquote>p{
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    line-height: 12px;
 }
 
 blockquote>p{
@@ -70,7 +80,6 @@ blockquote>p{
     padding-right: 10px;
 }
 
-
 .groupetitre.titrehaut_Items {
     font-weight: bold;
     border-style: none;
@@ -80,9 +89,7 @@ blockquote>p{
     text-align: center;
     margin-bottom: 80px;
     z-index: -1;
-
 }
-
 
 .groupetitre.titrehaut_Items {
     font-weight: bold;
@@ -103,7 +110,10 @@ blockquote>p{
 }
 
 .groupetitre.titrehaut_Items>h1 {
-    margin: 40px 30px -60px 20px;
+    margin-top: 110px;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-bottom: -60px;
     position: relative;
     text-align: left;
 }
@@ -114,7 +124,6 @@ blockquote>p{
     text-align: left;
 }
 
-
 .groupetitre.titrehautAS_Items {
     font-weight: bold;
     border-style: none;
@@ -122,17 +131,18 @@ blockquote>p{
     position: relative;
     align-items: center;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     z-index: -1;
-
 }
 
 .groupetitre.titrehautAS_Items>h1 {
-    margin: 40px 30px -40px 20px;
+    margin-top: 110px;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-bottom: -40px;
     position: relative;
     text-align: left;
 }
-
 
 .groupetitre.titrebas h2{
     margin-top: -40px;
@@ -145,7 +155,7 @@ blockquote>p{
 }
 
 .groupetitre.centrer img{
-    margin-top: -50px;
+    margin-top: 50px;
     margin-left: 30px;
     position: relative;
     z-index: -1;
@@ -155,7 +165,7 @@ blockquote>p{
 .groupetitre.centrer h1{
     text-align: center;
     position: relative;
-    top:30px;
+    top:130px;
     z-index: 0;
 }
 
@@ -207,7 +217,7 @@ h3{
     z-index: 4;
 }
 
-.article>p{
+.article>p,aside{
     padding-top: -10px;
     padding-right: 30px;
     padding-left: 30px;
@@ -246,7 +256,6 @@ li.carousel-items{
     margin: 0 20px;
 }
 
-
 .carouselInfos>h2,header{
     margin: 0 20px;
 }
@@ -275,7 +284,6 @@ li.carouselInfos-items{
     height: 2px;
 }
 
-
 .chevron{
     position: relative;
     top:-50px;
@@ -291,7 +299,6 @@ form {
 .imgformul{
     padding-left: 230px;
     padding-top:10px;
-
 }
 
 .nom{
@@ -310,13 +317,11 @@ input{
     z-index:1;
 }
 
-
 textarea{
     width: 340px;
     height: 100px;
     z-index:1;
 }
-
 
 .mail{
     width: 100px;
@@ -375,14 +380,12 @@ textarea{
     margin-top: -25px;
 }
 
-
 .mmi {
     position: relative;
     margin-top:10px;
     margin-left: 175px;
     display: block;
 }
-
 
 .projet {
     position: relative;

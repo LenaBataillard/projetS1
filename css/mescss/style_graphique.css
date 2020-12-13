@@ -1,8 +1,15 @@
+header>#fond_header>.header_Items>h4{
+    color: #5F7F80;
+}
+
+.intro img {
+    border-style: none;
+}
+
 .intro p {
     border-style: double;
     border-color: #5F7F80;
 }
-
 
 .index1{
     text-align: center;
@@ -28,19 +35,10 @@
     color: #A0CA9E;
 }
 
-.header_Items> h4{
-    color: #5F7F80;
-}
-
-
 .chevronIndex p {
     border-style: double;
     border-color: #5F7F80;
     text-align: center;
-}
-
-.intro img {
-    border-style: none;
 }
 
 .carousel {
@@ -66,7 +64,6 @@ form {
 
 .fond_footer {
     background-color: #B8CACD;
-
 }
 
 footer>.projet>p>a{
