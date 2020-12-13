@@ -373,26 +373,30 @@ textarea{
 }
 
 .mailto{
+    width: 10px;
     position: relative;
-    margin-left: 320px;
+    margin-left: 330px;
     margin-top: -38px;
 }
 
 .facebook{
+    width: 10px;
     position: relative;
     margin-left: 300px;
     margin-top: -27px;
 }
 
 .instagram{
+    width: 10px;
     position: relative;
-    margin-left: 270px;
+    margin-left: 260px;
     margin-top: -24px;
 }
 
 .twitter{
+    width: 10px;
     position: relative;
-    margin-left: 240px;
+    margin-left: 220px;
     margin-top: -25px;
 }
 
