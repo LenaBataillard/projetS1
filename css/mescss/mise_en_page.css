@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
+/*hearder*/
+
 html{
     width: 100%;
     scroll-behavior: smooth;
@@ -28,6 +30,8 @@ html{
     z-index:4;
 }
 
+/*Accueil*/
+
 .intro p {
     position: relative;
     top: 80px;
@@ -50,6 +54,8 @@ html{
     padding-left: 170px;
     color: #5F7F80;
 }
+
+/*Article*/
 
 .article>h2{
     text-align: center;
@@ -169,6 +175,8 @@ blockquote>p{
     z-index: 0;
 }
 
+/* Infos pratiques */
+
 .groupetitre.centrer img{
     margin-top: 50px;
     margin-left: 30px;
@@ -212,6 +220,8 @@ blockquote>p{
     top: -40px;
 }
 
+/*Articles */
+
 h2{
     text-align: center;
     padding-bottom: 10px;
@@ -242,6 +252,8 @@ h3{
 .info{
     padding: 10px 20px 10px 30px;
 }
+
+/*carousel*/
 
 .carousel>h2,header{
     margin: 0 20px;
@@ -305,6 +317,8 @@ li.carouselInfos-items{
     margin-left: -20px;
 }
 
+/* Formulaire */
+
 form {
     height: 340px;
     z-index: -1;
@@ -358,6 +372,8 @@ textarea{
     margin-left: 225px;
     margin-top: -30px;
 }
+
+/* Footer */
 
 .fond_footer {
     position: relative;
